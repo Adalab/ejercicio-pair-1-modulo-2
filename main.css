@@ -1,8 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-inline: 30px;
+}
 .head {
     background: #fc0;
     height: 100px;
     position: relative;
     width: 100px;
+    border-radius: 50% 50%;
   }
   .face {
     font-family: 'courier new', serif;
